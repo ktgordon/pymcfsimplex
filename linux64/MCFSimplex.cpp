@@ -2009,7 +2009,7 @@ void MCFSimplex::PrimalSimplex( void )
  #if( UNIPI_PRIMAL_INITIAL_SHOW == 0 )
   #if( UNIPI_PRIMAL_ITER_SHOW == 0 )
    #if( UNIPI_PRIMAL_FINAL_SHOW == 0 ) 
-    cout << endl;
+    // cout << endl;
    #endif
   #endif
  #endif
@@ -2449,7 +2449,7 @@ void MCFSimplex::DualSimplex( void )
  #if( UNIPI_PRIMAL_INITIAL_SHOW == 0 )
   #if( UNIPI_PRIMAL_ITER_SHOW == 0 )
    #if( UNIPI_PRIMAL_FINAL_SHOW == 0 ) 
-    cout << endl;
+    // cout << endl;
    #endif
   #endif
  #endif

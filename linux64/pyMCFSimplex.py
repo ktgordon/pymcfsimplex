@@ -146,12 +146,12 @@ def CreateUIntArrayFromList(l):
 # Print out some elements of a double array
 def PrintElements(a, first, last):
 	for i in range(first,last):
-		print darray_get(a,i)
+		print(darray_get(a,i))
 		
 # Print out some elements of an uint array
 def PrintElements(a, first, last):
 	for i in range(first,last):
-		print uiarray_get(a,i)
+		print(uiarray_get(a,i))
 
 class SwigPyIterator(_object):
     __swig_setmethods__ = {}

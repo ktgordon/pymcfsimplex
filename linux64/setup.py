@@ -12,7 +12,7 @@ with open("pyMCFSimplex.i", "r") as file:
 	_version = ''
 	for line in content:
 		if '__version__' in line:
-			print line
+			print(line)
 			_version = line.split(' = ')[1].rstrip('"').lstrip('"')
 
 with open("README.txt", "r") as file:
